@@ -1,7 +1,5 @@
 package Lessons.Lesson2;
 
-import org.jetbrains.annotations.NotNull;
-
 public class Lesson2 {
     public static void main(String[] args) {
         int[] arr1 = {1, 1, 0, 0, 1, 0, 1, 1, 0, 0};
@@ -52,7 +50,7 @@ public class Lesson2 {
         int[] arr7 = {3, 1, 6, 5};
         printShiftArrayElementsByN(arr7,2);//Метод не реализовал(работает только с некоторыми значениями)
     }
-   public static boolean checkBalance(int @NotNull [] arr){
+   public static boolean checkBalance(int [] arr){
         if(arr.length == 1)
             return true;
         else {

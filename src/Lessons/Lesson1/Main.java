@@ -1,6 +1,6 @@
 package Lessons.Lesson1;
 
-public class Lesson1 {
+public class Main {
     //Метод 1
     public static float method1(float a, float b, float c, float d){
         return a * (b + (c / d));

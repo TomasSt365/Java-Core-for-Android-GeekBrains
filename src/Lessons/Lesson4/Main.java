@@ -8,9 +8,9 @@ public class Main {
     public static Random rand = new Random();
 
     public static char[][] map;
-    public static final int SIZE_HORIZONTAL = 3;
-    public static final int SIZE_VERTICAL = 3;
-    public static final int DOTS_TO_WIN = 3;
+    public static final int SIZE_HORIZONTAL = 7;
+    public static final int SIZE_VERTICAL = 7;
+    public static final int DOTS_TO_WIN = 4;
     public static final char DOT_EMPTY = '•';
     public static final char DOT_X = 'X';
     public static final char DOT_O = 'O';
@@ -21,7 +21,7 @@ public class Main {
         while (true) {
             humanTurn();
             printMap();
-            if (checkWin(DOT_X)) {
+            if (checkWin(DOT_X, DOTS_TO_WIN)) {
                System.out.println("Human Victory!");
                 break;
             }
@@ -31,7 +31,7 @@ public class Main {
             }
             computerTurn();
             printMap();
-            if (checkWin(DOT_O)) {
+            if (checkWin(DOT_O, DOTS_TO_WIN)) {
                System.out.println("Computer Victory!");
                 break;
             }
@@ -40,7 +40,7 @@ public class Main {
                 break;
             }
         }
-        System.out.println("Игра закончена");
+        System.out.println("Game Over");
 
     }
 
@@ -104,14 +104,61 @@ public class Main {
         return true;
     }
 
-    public static boolean checkWin(char symbol) {
-        if(map[0][0] == symbol && map[0][1] == symbol && map[0][2] == symbol) return true;
-        if(map[1][0] == symbol && map[1][1] == symbol && map[1][2] == symbol) return true;
-        if(map[2][0] == symbol && map[2][1] == symbol && map[2][2] == symbol) return true;
-        if(map[0][0] == symbol && map[1][0] == symbol && map[2][0] == symbol) return true;
-        if(map[0][1] == symbol && map[1][1] == symbol && map[2][1] == symbol) return true;
-        if(map[0][2] == symbol && map[1][2] == symbol && map[2][2] == symbol) return true;
-        if(map[0][0] == symbol && map[1][1] == symbol && map[2][2] == symbol) return true;
-        return map[2][0] == symbol && map[1][1] == symbol && map[0][2] == symbol;
+    public static boolean checkWin(char symbol, int DOTS_TO_WIN) {
+
+        /*horizontal check*/
+        for (int i = 0; i < SIZE_VERTICAL; i++) {
+            int symbolsStandingNearby = 0;
+            for (int j = 0; j < SIZE_HORIZONTAL; j++) {
+                if(map[i][j] == symbol)
+                    symbolsStandingNearby++;
+                if (symbolsStandingNearby == DOTS_TO_WIN)
+                    return true;
+            }
+        }
+
+        /*vertical check*/
+        for (int i = 0; i < SIZE_HORIZONTAL; i++) {
+            int symbolsStandingNearby = 0;
+            for (int j = 0; j < SIZE_VERTICAL; j++) {
+                if(map[j][i]== symbol)
+                    symbolsStandingNearby++;
+                if (symbolsStandingNearby == DOTS_TO_WIN)
+                    return true;
+            }
+        }
+
+        /*diagonal check(\)*/
+        for (int i = 0; i <= SIZE_VERTICAL-DOTS_TO_WIN; i++) {
+            for (int j = 0; j <= SIZE_HORIZONTAL-DOTS_TO_WIN; j++) {
+                int symbolsStandingNearby = 0;
+                for (int x = j, y = i;;x++,y++) {
+                    if(y == SIZE_VERTICAL || x == SIZE_HORIZONTAL)
+                        break;
+                    if(map[x][y] == symbol)
+                        symbolsStandingNearby++;
+                    if (symbolsStandingNearby == DOTS_TO_WIN)
+                        return true;
+                }
+            }
+        }
+
+        /*diagonal check(/)*/
+        for (int i = SIZE_HORIZONTAL-1; i >= DOTS_TO_WIN-1 ; i--) {
+            for (int j = 0; j <= SIZE_VERTICAL-DOTS_TO_WIN; j++) {
+                int symbolsStandingNearby = 0;
+                for (int x = j, y = i;; x--,y++) {
+                    if(y == SIZE_VERTICAL || x < 0)
+                        break;
+                    if(map[x][y] == symbol)
+                        symbolsStandingNearby++;
+                    if (symbolsStandingNearby == DOTS_TO_WIN)
+                        return true;
+                }
+            }
+        }
+
+        return false;
     }
+
 }

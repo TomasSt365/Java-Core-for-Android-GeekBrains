@@ -28,7 +28,7 @@ public class Person {
         System.out.println("Position: " + getPosition());
         System.out.println("Email: " + getEmail());
         System.out.println("Phone number: " + getPhoneNumber());
-        System.out.println("Salary" + getSalary());
+        System.out.println("Salary: " + getSalary());
         System.out.println("Age: " + getAge());
 
     }

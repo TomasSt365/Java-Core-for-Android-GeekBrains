@@ -18,6 +18,7 @@ public class Main {
         plate.printInfo();
 
         plate.addFood(25);
+        plate.printInfo();
         Cat.feedCatsFromOnePlate(catsArr, plate);
         Cat.printCatsSatietyInfo(catsArr);
         plate.printInfo();

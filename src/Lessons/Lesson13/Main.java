@@ -6,7 +6,6 @@ public class Main {
     public static final int CARS_COUNT = 4;
     public static final CountDownLatch gameOverMessageCdl = new CountDownLatch(CARS_COUNT);
     public static final CountDownLatch raceBeginsMessageCdl = new CountDownLatch(CARS_COUNT);
-    public static final CountDownLatch winMessageCdl = new CountDownLatch(1);
 
     public static void main(String[] args) {
         System.out.println("IMPORTANT MESSAGE >>> Preparation !!!");
@@ -37,12 +36,4 @@ public class Main {
 
     }
 
-    public static void printWinner(String name) {
-        try {
-            winMessageCdl.await();
-            System.out.println(name + " - WIN");
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-    }
 }

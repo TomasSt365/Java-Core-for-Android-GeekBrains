@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d4a742d-7349-4155-a19e-3d91a5db94d4" name="Default Changelist" comment="Homework is completed">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="1d4a742d-7349-4155-a19e-3d91a5db94d4" name="Default Changelist" comment="Update .gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Lesson13" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -195,7 +194,28 @@
       <option name="project" value="LOCAL" />
       <updated>1620060271243</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="initial commit">
+      <created>1620152466985</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1620152466985</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Homework is completed">
+      <created>1620223233534</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1620223233534</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update .gitignore">
+      <created>1620224984212</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1620224984212</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,7 +236,8 @@
     <MESSAGE value="The first task is completed" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="Homework is completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework is completed" />
+    <MESSAGE value="Update .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update .gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

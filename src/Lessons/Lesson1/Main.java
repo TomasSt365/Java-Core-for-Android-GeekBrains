@@ -8,7 +8,7 @@ public class Main {
 
     //Метод 2
     public static boolean method2(int number1, int number2){
-        return (number1 + number2) > 10 && (number1 + number2) <= 20;
+        return (number1 + number2) >= 10 && (number1 + number2) <= 20;
     }
 
     //Метод 3

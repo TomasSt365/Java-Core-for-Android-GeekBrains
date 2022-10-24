@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d4a742d-7349-4155-a19e-3d91a5db94d4" name="Default Changelist" comment="Update Lesson13" />
+    <list default="true" id="1d4a742d-7349-4155-a19e-3d91a5db94d4" name="Default Changelist" comment="Update Lesson13">
+      <change afterPath="$PROJECT_DIR$/src/Lessons/Lesson2/ShiftArrayElementsByN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lessons/Lesson1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/Lesson1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lessons/Lesson2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/Lesson2/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +38,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1rFdJUWS7u1ko7p8C8UCC84DSXi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -40,26 +49,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Lessons.Lesson9" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (5)">
+  <component name="RunManager" selected="Application.ShiftArrayElementsByN">
+    <configuration name="Lessons.Lesson2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lessons.Lesson2.Main" />
+      <module name="JavaApp1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lessons.Lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lessons.Lesson8.Main" />
       <module name="JavaApp1" />
@@ -73,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lessons.Lesson9.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lessons.Lesson1.Main" />
       <module name="JavaApp1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lessons.Lesson9.*" />
+          <option name="PATTERN" value="Lessons.Lesson1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lessons.Lesson10.Main" />
+    <configuration name="Return" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lessons.Lesson1.Return" />
       <module name="JavaApp1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lessons.Lesson10.*" />
+          <option name="PATTERN" value="Lessons.Lesson1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,25 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lessons.Lesson11.Main" />
+    <configuration name="ShiftArrayElementsByN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lessons.Lesson2.ShiftArrayElementsByN" />
       <module name="JavaApp1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lessons.Lesson11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lessons.Lesson13.Main" />
-      <module name="JavaApp1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lessons.Lesson13.*" />
+          <option name="PATTERN" value="Lessons.Lesson2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,10 +128,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.ShiftArrayElementsByN" />
+        <item itemvalue="Application.Lessons.Lesson2.Main" />
+        <item itemvalue="Application.Return" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
@@ -241,7 +242,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update gitignore" />

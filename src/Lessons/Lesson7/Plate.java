@@ -7,8 +7,12 @@ public class Plate {
         this.food = food;
     }
 
-    public void decreaseFood(int n) {
-        food -= n;
+    public void decreaseFood(int food) {
+        if(this.food >= food){
+            this.food -= food;
+        }else {
+            System.out.println("there is not enough food on the plate");
+        }
     }
     public void printInfo() {
         System.out.println("plate: " + food);

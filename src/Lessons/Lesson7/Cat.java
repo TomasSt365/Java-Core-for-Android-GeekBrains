@@ -1,8 +1,8 @@
 package Lessons.Lesson7;
 
 public class Cat {
-    private String name;
-    private int appetite;
+    private final String name;
+    private final int appetite;
     private boolean satiety = false;
 
     public Cat(String name, int appetite) {
@@ -10,16 +10,10 @@ public class Cat {
         this.appetite = appetite;
     }
 
-    public void eat(Plate p) {
-        if(p.getFood() >= appetite && !satiety){
-            p.decreaseFood(appetite);
+    public void eat(Plate plate) {
+        if(!satiety){
+            plate.decreaseFood(appetite);
             satiety = true;
-        }
-    }
-
-    public static void printCatsSatietyInfo(Cat[] cats){
-        for (Cat cat : cats) {
-            cat.printCatSatietyInfo();
         }
     }
 
@@ -30,10 +24,7 @@ public class Cat {
             System.out.println(name + " is not full");
     }
 
-    public static void feedCatsFromOnePlate (Cat[] cats, Plate plate){
-        for (Cat cat : cats) {
-            cat.eat(plate);
-        }
+    public int getAppetite() {
+        return appetite;
     }
-
 }

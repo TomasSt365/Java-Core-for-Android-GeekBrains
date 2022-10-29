@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d4a742d-7349-4155-a19e-3d91a5db94d4" name="Default Changelist" comment="removing redundant constructors">
-      <change afterPath="$PROJECT_DIR$/src/Lessons/Lesson6/Main.java" afterDir="false" />
+    <list default="true" id="1d4a742d-7349-4155-a19e-3d91a5db94d4" name="Default Changelist" comment="elimination of remarks of lesson 8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lessons/Lesson6/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/Lesson6/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lessons/Lesson6/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/Lesson6/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lessons/Lesson6/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/Lesson6/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lessons/Lesson7/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/Lesson7/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lessons/Lesson7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/Lesson7/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lessons/Lesson7/Plate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/Lesson7/Plate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +61,13 @@
       <recent name="Lessons.Lesson9" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Lessons.Lesson2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lessons.Lesson2.Main" />
+  <component name="RunManager" selected="Application.Lessons.Lesson7.Main">
+    <configuration name="Lessons.Lesson7.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lessons.Lesson7.Main" />
       <module name="JavaApp1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lessons.Lesson2.*" />
+          <option name="PATTERN" value="Lessons.Lesson7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lessons.Lesson7.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Lessons.Lesson8.Main" />
         <item itemvalue="Application.Lessons.Lesson8.Remake.Main" />
         <item itemvalue="Application.ShiftArrayElementsByN" />
-        <item itemvalue="Application.Lessons.Lesson2.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667039614874</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="elimination of remarks of lesson 8">
+      <created>1667041738156</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1667041738156</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,7 +285,8 @@
     <MESSAGE value="Улучшение урока 8 и полное выполнение всех задач" />
     <MESSAGE value="Исправление название метода в уроке 5" />
     <MESSAGE value="removing redundant constructors" />
-    <option name="LAST_COMMIT_MESSAGE" value="removing redundant constructors" />
+    <MESSAGE value="elimination of remarks of lesson 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="elimination of remarks of lesson 8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

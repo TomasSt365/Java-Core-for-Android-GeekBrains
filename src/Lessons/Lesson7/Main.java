@@ -13,15 +13,31 @@ public class Main {
 
         Plate plate = new Plate(50);
 
-        Cat.feedCatsFromOnePlate(catsArr, plate);
-        Cat.printCatsSatietyInfo(catsArr);
+        feedCatsFromOnePlate(catsArr, plate);
+        printCatsSatietyInfo(catsArr);
         plate.printInfo();
 
         plate.addFood(25);
         plate.printInfo();
-        Cat.feedCatsFromOnePlate(catsArr, plate);
-        Cat.printCatsSatietyInfo(catsArr);
+        feedCatsFromOnePlate(catsArr, plate);
+        printCatsSatietyInfo(catsArr);
         plate.printInfo();
     }
 
+    public static void feedCatsFromOnePlate (Cat[] cats, Plate plate){
+        for (Cat cat : cats) {
+            if(cat.getAppetite() > plate.getFood()){
+                cat.eat(plate);
+                break;
+            }else {
+                cat.eat(plate);
+            }
+        }
+    }
+
+    public static void printCatsSatietyInfo(Cat[] cats){
+        for (Cat cat : cats) {
+            cat.printCatSatietyInfo();
+        }
+    }
 }

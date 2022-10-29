@@ -25,12 +25,8 @@ public class Main {
     }
 
     public static void PrintUniqueElements(List<String> list){
-
-        for (String element : list) {
-            if(getNumberOfEqualsElementsOfList(element, list) == 1){
-                System.out.println(element);
-            }
-        }
+        Set<String> set = new HashSet<>(list);
+        System.out.println(Arrays.toString(set.toArray()));
     }
 
     public static void PrintElementsAndTheirNumber(List<String> list){

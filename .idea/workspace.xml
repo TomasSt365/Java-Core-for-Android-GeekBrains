@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d4a742d-7349-4155-a19e-3d91a5db94d4" name="Default Changelist" comment="Correction of remarks of lesson 7">
+    <list default="true" id="1d4a742d-7349-4155-a19e-3d91a5db94d4" name="Default Changelist" comment="Correction of remarks of lesson 9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lessons/Lesson9/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/Lesson9/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,20 @@
       <recent name="Lessons.Lesson9" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lessons.Lesson9.Main">
+  <component name="RunManager" selected="Application.Lessons.Lesson10.Main">
+    <configuration name="Lessons.Lesson10.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lessons.Lesson10.Main" />
+      <module name="JavaApp1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lessons.Lesson10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Lessons.Lesson7.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lessons.Lesson7.Main" />
       <module name="JavaApp1" />
@@ -79,19 +91,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lessons.Lesson8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lessons.Lesson8.Remake.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lessons.Lesson8.Remake.Main" />
-      <module name="JavaApp1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lessons.Lesson8.Remake.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lessons.Lesson10.Main" />
         <item itemvalue="Application.Lessons.Lesson9.Main" />
         <item itemvalue="Application.Lessons.Lesson7.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Lessons.Lesson8.Main" />
-        <item itemvalue="Application.Lessons.Lesson8.Remake.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667043117594</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Correction of remarks of lesson 9">
+      <created>1667052567439</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1667052567439</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,7 +298,8 @@
     <MESSAGE value="removing redundant constructors" />
     <MESSAGE value="elimination of remarks of lesson 8" />
     <MESSAGE value="Correction of remarks of lesson 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correction of remarks of lesson 7" />
+    <MESSAGE value="Correction of remarks of lesson 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correction of remarks of lesson 9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -301,6 +308,15 @@
           <properties class="Lessons.Lesson9.MyArraySizeException" package="Lessons.Lesson9" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$USER_HOME$/.jdks/openjdk-18.0.2.1/lib/src.zip!/java.base/java/util/ArrayList.java</url>
+          <line>153</line>
+          <properties class="java.util.ArrayList" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

@@ -43,16 +43,16 @@ public class Main {
     public static int getNumberOfEqualsElementsOfList
             (String checkedElement, List<String> list) {
 
-        int NumberOfEqualsElements = 0;
+        int numberOfEqualsElements = 0;
 
         for (String element : list){
 
             if(element.equals(checkedElement)){
-                NumberOfEqualsElements++;
+                numberOfEqualsElements++;
             }
 
         }
-        return NumberOfEqualsElements;
+        return numberOfEqualsElements;
     }
 
     public static void PrintNumbersBySearchingLastName

@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d4a742d-7349-4155-a19e-3d91a5db94d4" name="Default Changelist" comment="Решение 7 задачи в уроке 2 и вынос её реализации в отдельный класс">
-      <change afterPath="$PROJECT_DIR$/src/Lessons/Lesson8/Obstacles/Obstacle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lessons/Lesson8/Obstacles/ObstacleType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lessons/Lesson8/Obstacles/Treadmill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lessons/Lesson8/Obstacles/Wall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lessons/Lesson8/Participants/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lessons/Lesson8/Participants/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lessons/Lesson8/Participants/Participant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lessons/Lesson8/Participants/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lessons/Lesson8/Cat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lessons/Lesson8/Human.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lessons/Lesson8/Jumping.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lessons/Lesson8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/Lesson8/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lessons/Lesson8/Obstacle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lessons/Lesson8/Robot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lessons/Lesson8/Running.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lessons/Lesson8/Treadmill.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lessons/Lesson8/Wall.java" beforeDir="false" />
-    </list>
+    <list default="true" id="1d4a742d-7349-4155-a19e-3d91a5db94d4" name="Default Changelist" comment="Улучшение урока 8 и полное выполнение всех задач" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -251,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666629010421</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Улучшение урока 8 и полное выполнение всех задач">
+      <created>1667039168527</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1667039168527</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -275,7 +262,8 @@
     <MESSAGE value="Update workspace.xml" />
     <MESSAGE value="Update Lesson13" />
     <MESSAGE value="Решение 7 задачи в уроке 2 и вынос её реализации в отдельный класс" />
-    <option name="LAST_COMMIT_MESSAGE" value="Решение 7 задачи в уроке 2 и вынос её реализации в отдельный класс" />
+    <MESSAGE value="Улучшение урока 8 и полное выполнение всех задач" />
+    <option name="LAST_COMMIT_MESSAGE" value="Улучшение урока 8 и полное выполнение всех задач" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -28,7 +28,7 @@ public class Main {
 
         for (Person person : personsArr)
             if (person.getAge() > 40) {
-                person.Info();
+                person.printInfo();
                 System.out.println();
             }
     }

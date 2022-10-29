@@ -22,7 +22,7 @@ public class Person {
 
     }
 
-    public void Info(){
+    public void printInfo(){
 
         System.out.println("Name: " + getFullName());
         System.out.println("Position: " + getPosition());

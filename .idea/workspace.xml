@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d4a742d-7349-4155-a19e-3d91a5db94d4" name="Default Changelist" comment="convert int field to boolean">
+    <list default="true" id="1d4a742d-7349-4155-a19e-3d91a5db94d4" name="Default Changelist" comment="Removing an extra method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lessons/Lesson10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/Lesson10/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lessons/Lesson12/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/Lesson12/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +59,7 @@
       <recent name="Lessons.Lesson9" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lessons.Lesson10.Main">
+  <component name="RunManager" selected="Application.Lessons.Lesson12.Main">
     <configuration name="Lessons.Lesson10.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lessons.Lesson10.Main" />
       <module name="JavaApp1" />
@@ -73,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lessons.Lesson7.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lessons.Lesson7.Main" />
+    <configuration name="Lessons.Lesson12.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lessons.Lesson12.Main" />
       <module name="JavaApp1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lessons.Lesson7.*" />
+          <option name="PATTERN" value="Lessons.Lesson12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lessons.Lesson8.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lessons.Lesson8.Main" />
+    <configuration name="Lessons.Lesson7.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lessons.Lesson7.Main" />
       <module name="JavaApp1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lessons.Lesson8.*" />
+          <option name="PATTERN" value="Lessons.Lesson7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lessons.Lesson12.Main" />
         <item itemvalue="Application.Lessons.Lesson10.Main" />
         <item itemvalue="Application.Lessons.Lesson9.Main" />
         <item itemvalue="Application.Lessons.Lesson7.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Lessons.Lesson8.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667065224390</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="code simplification">
+      <created>1667066409854</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1667066409854</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -324,7 +331,9 @@
     <MESSAGE value="rename field to correct name" />
     <MESSAGE value="optimization method PrintUniqueElements" />
     <MESSAGE value="convert int field to boolean" />
-    <option name="LAST_COMMIT_MESSAGE" value="convert int field to boolean" />
+    <MESSAGE value="code simplification" />
+    <MESSAGE value="Removing an extra method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removing an extra method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -333,15 +342,6 @@
           <properties class="Lessons.Lesson9.MyArraySizeException" package="Lessons.Lesson9" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>jar://$USER_HOME$/.jdks/openjdk-18.0.2.1/lib/src.zip!/java.base/java/util/ArrayList.java</url>
-          <line>153</line>
-          <properties class="java.util.ArrayList" method="&lt;init&gt;">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

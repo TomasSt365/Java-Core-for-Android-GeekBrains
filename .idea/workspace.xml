@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d4a742d-7349-4155-a19e-3d91a5db94d4" name="Default Changelist" comment="rename field to correct name">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lessons/Lesson10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/Lesson10/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="1d4a742d-7349-4155-a19e-3d91a5db94d4" name="Default Changelist" comment="optimization method PrintUniqueElements" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -277,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667063052177</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="optimization method PrintUniqueElements">
+      <created>1667064596290</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1667064596290</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -308,7 +312,8 @@
     <MESSAGE value="Correction of remarks of lesson 7" />
     <MESSAGE value="Correction of remarks of lesson 9" />
     <MESSAGE value="rename field to correct name" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename field to correct name" />
+    <MESSAGE value="optimization method PrintUniqueElements" />
+    <option name="LAST_COMMIT_MESSAGE" value="optimization method PrintUniqueElements" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

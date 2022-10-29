@@ -53,16 +53,16 @@ public class Main {
 
     public static void PrintNumbersBySearchingLastName
             (Map<String, String> phonebook, String searchingLastName) {
-        int numberOfPrints = 0;
+        boolean isNotFound = true;
         Set<Map.Entry<String, String>> entries = phonebook.entrySet();
 
         for (Map.Entry<String, String> entry : entries) {
             if (entry.getValue().equalsIgnoreCase(searchingLastName)) {
                 System.out.println(entry.getKey());
-                numberOfPrints++;
+                isNotFound = false;
             }
         }
-        if (numberOfPrints == 0) {
+        if (isNotFound) {
             System.out.println("No results were found for your search");
         }
     }

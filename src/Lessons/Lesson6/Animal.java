@@ -1,46 +1,46 @@
 package Lessons.Lesson6;
 
-public  class Animal {
-    protected String name;
-    protected int age;
-    protected String color;
-    protected int limitSwimMeters;
-    protected int limitRunMeters;
+public class Animal {
+    private static int animalNumber = 0;
+    private final String name;
+    private int limitSwimMeters;
+    private int limitRunMeters;
 
-    public Animal(String name, int age, String color){
+    public Animal(String name) {
         this.name = name;
-        this.age = age;
-        this.color = color;
-    }
-    public Animal(String name, String color){
-        this.name = name;
-        this.color = color;
-        this.age = 0;
-    }
-    public Animal(String color){
-        this.name = "Unknown";
-        this.color = color;
-        this.age = 0;
+        animalNumber++;
     }
 
-    public void run(int meters){
-        if(limitRunMeters == 0)
+    public void run(int meters) {
+        if (limitRunMeters == 0)
             System.out.println(name + " cannot run");
-        else if(meters > limitRunMeters) {
+        else if (meters > limitRunMeters) {
             System.out.println(name + " run " + limitRunMeters + " meters");
-        }
-        else
+        } else
             System.out.println(name + " run " + meters + " meters");
     }
 
-    public  void swim(int meters){
-        if(limitSwimMeters == 0)
-            System.out.println(name + " cannot swim");
-        else if(meters > limitSwimMeters)
+    public void swim(int meters) {
+        if (meters > limitSwimMeters)
             System.out.println(name + " swim " + limitSwimMeters + " meters");
         else
             System.out.println(name + " swim " + meters + " meters");
     }
 
+    public static void printAnimalNumber() {
+        System.out.println("Number of animals: " + animalNumber);
+    }
+
+    public void setLimitSwimMeters(int limitSwimMeters) {
+        this.limitSwimMeters = limitSwimMeters;
+    }
+
+    public void setLimitRunMeters(int limitRunMeters) {
+        this.limitRunMeters = limitRunMeters;
+    }
+
+    public String getName() {
+        return name;
+    }
 }
 

@@ -2,22 +2,9 @@ package Lessons.Lesson6;
 
 public  class Cat extends Animal {
     private static int catNumber = 0;
-    public Cat(String name, int age, String color) {
-        super(name, age, color);
-        limitRunMeters = 200;
-        limitSwimMeters = 0;
-        catNumber++;
-    }
-    public Cat(String name, String color) {
-        super(name, color);
-        limitRunMeters = 200;
-        limitSwimMeters = 0;
-        catNumber++;
-    }
-    public Cat(String color) {
-        super(color);
-        limitRunMeters = 200;
-        limitSwimMeters = 0;
+    public Cat(String name) {
+        super(name);
+        setLimitRunMeters(200);
         catNumber++;
     }
 
@@ -25,11 +12,9 @@ public  class Cat extends Animal {
         System.out.println("number of cats: " + catNumber);
     }
 
-    public static void setCatNumber(int catNumber) {
-        Cat.catNumber = catNumber;
+    @Override
+    public void swim(int meters) {
+        System.out.println(getName() + " cannot swim");
     }
 
-    public static int getCatNumber() {
-        return catNumber;
-    }
 }
